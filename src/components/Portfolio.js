@@ -2,6 +2,8 @@ import React from 'react';
 import '../Portfolio.css';
 import StarWarsQuizImage from '../Star Wars Quiz Screen Shot.png';
 import ToDoImage from '../TO-Do App Screen Shot.png';
+import MapImage from '../JS API Map App.png'
+import CounterImage from '../Counter App Example Image.png'
 
 const Portfolio = () => {
   const projects = [
@@ -21,18 +23,18 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Project Three',
-      description: 'Description for project three.',
-      image: 'https://via.placeholder.com/150',
-      link: 'https://github.com/your-username/project-three'
+      title: 'Counter app in React',
+      description: 'A counter app made with React.',
+      image: CounterImage,
+      link: 'https://foxshane997.github.io/Counter/'
     },
-    // {
-    //   id: 4,
-    //   title: 'Project Four',
-    //   description: 'Description for project four.',
-    //   image: 'https://via.placeholder.com/150',
-    //   link: 'https://github.com/your-username/project-four'
-    // },
+    {
+      id: 4,
+      title: 'JavaScript API Map',
+      description: 'Using API fetch to render a Map.',
+      image: MapImage,
+      link: 'https://foxshane997.github.io/Map.github.io/'
+    },
     // {
     //   id: 5,
     //   title: 'Project Five',
