@@ -10,11 +10,12 @@
   background-color: #333;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 0 9px white; overflow: hidden;
+  box-shadow: 0 0 9px white;
+  overflow: hidden;
   width: 300px;
   transition: transform 0.3s ease;
-  text-decoration: none; 
-  color: whitesmoke; 
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .card:hover {
@@ -35,4 +36,22 @@
 .card p {
   margin: 0 16px 16px;
   color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
 }
