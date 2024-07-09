@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Shane-Fox-Portfolio/static/css/main.22ee74e4.css",
-    "main.js": "/Shane-Fox-Portfolio/static/js/main.1aaca93d.js",
+    "main.js": "/Shane-Fox-Portfolio/static/js/main.99647a89.js",
     "static/media/Star Wars Quiz Screen Shot.png": "/Shane-Fox-Portfolio/static/media/Star Wars Quiz Screen Shot.8cdd0a129dcec771e8e1.png",
+    "static/media/Art Gallery Screen Shot.png": "/Shane-Fox-Portfolio/static/media/Art Gallery Screen Shot.a7841fa41fe21528343e.png",
     "static/media/HeroBackground.jpg": "/Shane-Fox-Portfolio/static/media/HeroBackground.d8968ed33112aac856c6.jpg",
     "static/media/JS API Map App.png": "/Shane-Fox-Portfolio/static/media/JS API Map App.5583a6c3105a45a173ef.png",
     "static/media/React-a-mole screenshot.png": "/Shane-Fox-Portfolio/static/media/React-a-mole screenshot.08190666ecbe7ae3a644.png",
@@ -10,10 +11,10 @@
     "static/media/Counter App Example Image.png": "/Shane-Fox-Portfolio/static/media/Counter App Example Image.033ecf213cc63f379080.png",
     "index.html": "/Shane-Fox-Portfolio/index.html",
     "main.22ee74e4.css.map": "/Shane-Fox-Portfolio/static/css/main.22ee74e4.css.map",
-    "main.1aaca93d.js.map": "/Shane-Fox-Portfolio/static/js/main.1aaca93d.js.map"
+    "main.99647a89.js.map": "/Shane-Fox-Portfolio/static/js/main.99647a89.js.map"
   },
   "entrypoints": [
     "static/css/main.22ee74e4.css",
-    "static/js/main.1aaca93d.js"
+    "static/js/main.99647a89.js"
   ]
 }
