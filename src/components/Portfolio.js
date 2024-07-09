@@ -4,6 +4,7 @@ import StarWarsQuizImage from '../Star Wars Quiz Screen Shot.png';
 import ToDoImage from '../TO-Do App Screen Shot.png';
 import MapImage from '../JS API Map App.png'
 import CounterImage from '../Counter App Example Image.png'
+import MoleImage from '../React-a-mole screenshot.png'
 
 const Portfolio = () => {
   const projects = [
@@ -35,17 +36,24 @@ const Portfolio = () => {
       image: MapImage,
       link: 'https://foxshane997.github.io/Map.github.io/'
     },
-    // {
-    //   id: 5,
-    //   title: 'Project Five',
-    //   description: 'Description for project five.',
-    //   image: 'https://via.placeholder.com/150',
-    //   link: 'https://github.com/your-username/project-five' 
-    // },
+    {
+      id: 5,
+      title: 'React-A-Mole',
+      description: 'React Wack-A-Mole.',
+      image: MoleImage,
+      link: 'https://foxshane997.github.io/React-A-Mole/' 
+    },
     // {
     //   id: 6,
     //   title: 'Project Six',
     //   description: 'Description for project six.',
+    //   image: 'https://via.placeholder.com/150',
+    //   link: 'https://github.com/your-username/project-six' 
+    // }
+    // {
+    //   id: 7,
+    //   title: 'Project Seven',
+    //   description: 'Description for project seven.',
     //   image: 'https://via.placeholder.com/150',
     //   link: 'https://github.com/your-username/project-six' 
     // }
