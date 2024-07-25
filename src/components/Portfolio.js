@@ -1,11 +1,12 @@
 import React from 'react';
-import '../Portfolio.css';
-import StarWarsQuizImage from '../Star Wars Quiz Screen Shot.png';
-import ToDoImage from '../TO-Do App Screen Shot.png';
-import MapImage from '../JS API Map App.png'
-import CounterImage from '../Counter App Example Image.png'
-import MoleImage from '../React-a-mole screenshot.png'
-import GalleryImage from '../Art Gallery Screen Shot.png'
+import '../assets/styles/Portfolio.css';
+import StarWarsQuizImage from '../assets/images/Star Wars Quiz Screen Shot.png';
+import ToDoImage from '../assets/images/TO-Do App Screen Shot.png';
+import MapImage from '../assets/images/JS API Map App.png'
+import CounterImage from '../assets/images/Counter App Example Image.png'
+import MoleImage from '../assets/images/React-a-mole screenshot.png'
+import GalleryImage from '../assets/images/Art Gallery Screen Shot.png'
+import MernApp from '../assets/images/MERN Recipe Application.png'
 
 const Portfolio = () => {
   const projects = [
@@ -47,24 +48,17 @@ const Portfolio = () => {
     {
       id: 6,
       title: 'React-Redux Art Gallery',
-      description: 'Description for project six.',
+      description: 'A art gallery using React & Redux.',
       image: GalleryImage,
       link: 'https://foxshane997.github.io/RR-Art-Gallery/' 
     },
-    // {
-    //   id: 7,
-    //   title: 'Project Seven',
-    //   description: 'Description for project seven.',
-    //   image: 'https://via.placeholder.com/150',
-    //   link: 'https://github.com/your-username/project-six' 
-    // },
-    // {
-    //   id: 7,
-    //   title: 'Project Seven',
-    //   description: 'Description for project seven.',
-    //   image: 'https://via.placeholder.com/150',
-    //   link: 'https://github.com/your-username/project-six' 
-    // },
+    {
+      id: 7,
+      title: 'MERN Fullstack Recipe',
+      description: 'Fullstack recipe application using MealDealAPI.',
+      image: MernApp,
+      link: 'https://recipez-ijuh.onrender.com/'
+    }
   ];
 
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
-import HeroBackground from "../HeroBackground.jpg"
+import HeroBackground from "../assets/images/HeroBackground.jpg"
 
 function HomePage() {
   return (
