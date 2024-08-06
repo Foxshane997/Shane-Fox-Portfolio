@@ -7,6 +7,7 @@ import CounterImage from '../assets/images/Counter App Example Image.png'
 import MoleImage from '../assets/images/React-a-mole screenshot.png'
 import GalleryImage from '../assets/images/Art Gallery Screen Shot.png'
 import MernApp from '../assets/images/MERN Recipe Application.png'
+import TimerImage from '../assets/images/Timer Image.png'
 
 const Portfolio = () => {
   const projects = [
@@ -58,7 +59,14 @@ const Portfolio = () => {
       description: 'Fullstack recipe application using MealDealAPI.',
       image: MernApp,
       link: 'https://recipez-ijuh.onrender.com/'
-    }
+    },
+    {
+      id: 8,
+      title: 'Timer React Application',
+      description: 'Timer App in React',
+      image: TimerImage,
+      link: 'https://foxshane997.github.io/Timer-Application/'
+    },
   ];
 
   return (
