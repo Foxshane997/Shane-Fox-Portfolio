@@ -26,6 +26,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  margin-top: -4px; /* Adjusted to remove space above the image */
 }
 
 .card h3 {

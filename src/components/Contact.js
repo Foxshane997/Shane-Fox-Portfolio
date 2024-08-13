@@ -18,6 +18,7 @@ function Contact() {
             LinkedIn
           </a>
         </p>
+        <p>Note- The best time to contact me is the afternoon.</p>
       </div>
     </div>
   );

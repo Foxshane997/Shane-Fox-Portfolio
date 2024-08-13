@@ -48,7 +48,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: 'React-Redux Art Gallery',
+      title: 'React/Redux Art Gallery',
       description: 'A art gallery using React & Redux.',
       image: GalleryImage,
       link: 'https://foxshane997.github.io/RR-Art-Gallery/' 
@@ -63,7 +63,7 @@ const Portfolio = () => {
     {
       id: 8,
       title: 'Timer React Application',
-      description: 'Timer App in React',
+      description: 'Timer App made with React.',
       image: TimerImage,
       link: 'https://foxshane997.github.io/Timer-Application/'
     },

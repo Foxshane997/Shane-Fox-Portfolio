@@ -31,14 +31,20 @@
 
 @media (max-width: 768px) {
   .hero {
-    height: 400px;
+    height: 350px;
+    background-size: contain;
+  }
+
+  .hero-content {
+    padding: 15px;
+    max-width: 90%;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
