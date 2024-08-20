@@ -7,7 +7,7 @@ import CounterImage from '../assets/images/Counter App Example Image.png'
 import MoleImage from '../assets/images/React-a-mole screenshot.png'
 import GalleryImage from '../assets/images/Art Gallery Screen Shot.png'
 import MernApp from '../assets/images/MERN Recipe Application.png'
-import TimerImage from '../assets/images/Timer Image.png'
+import TimerImage from '../assets/images/Nuromophic Timer App.png'
 
 const Portfolio = () => {
   const projects = [
