@@ -62,8 +62,8 @@ const Portfolio = () => {
     },
     {
       id: 8,
-      title: 'Timer React Application',
-      description: 'Timer App made with React.',
+      title: 'Timer React Application WIP',
+      description: 'Timer App made with React WIP.',
       image: TimerImage,
       link: 'https://foxshane997.github.io/Timer-Application/'
     },
