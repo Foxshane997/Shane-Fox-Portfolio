@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/Portfolio.css';
 import StarWarsQuizImage from '../assets/images/Star Wars Quiz Screen Shot.png';
 import ToDoImage from '../assets/images/To Do Nuero Image.png';
-import MapImage from '../assets/images/JS API Map App.png'
+import MapImage from '../assets/images/Nuero API JS Map.png'
 import CounterImage from '../assets/images/Nuero Counter Image.png'
 import MoleImage from '../assets/images/React-a-mole screenshot.png'
 import GalleryImage from '../assets/images/Art Gallery Screen Shot.png'
