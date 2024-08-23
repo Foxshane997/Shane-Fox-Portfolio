@@ -5,7 +5,7 @@ import ToDoImage from '../assets/images/To Do Nuero Image.png';
 import MapImage from '../assets/images/Nuero API JS Map.png'
 import CounterImage from '../assets/images/Nuero Counter Image.png'
 import MoleImage from '../assets/images/Nuero react-a-mole.png'
-import GalleryImage from '../assets/images/Art Gallery Screen Shot.png'
+import GalleryImage from '../assets/images/Nuero Art Gallery.png'
 import MernApp from '../assets/images/MERN Recipe Application.png'
 import TimerImage from '../assets/images/Nuromophic Timer App.png'
 
