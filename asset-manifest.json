@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Shane-Fox-Portfolio/static/css/main.10927368.css",
-    "main.js": "/Shane-Fox-Portfolio/static/js/main.f551ab0c.js",
+    "main.js": "/Shane-Fox-Portfolio/static/js/main.19d936da.js",
     "static/media/Star Wars Quiz Screen Shot.png": "/Shane-Fox-Portfolio/static/media/Star Wars Quiz Screen Shot.8cdd0a129dcec771e8e1.png",
     "static/media/Ahsoka Disney Land Pic.jpg": "/Shane-Fox-Portfolio/static/media/Ahsoka Disney Land Pic.2d9c6a95f22e48c83b0b.jpg",
     "static/media/Art Gallery Screen Shot.png": "/Shane-Fox-Portfolio/static/media/Art Gallery Screen Shot.a7841fa41fe21528343e.png",
     "static/media/MERN Recipe Application.png": "/Shane-Fox-Portfolio/static/media/MERN Recipe Application.a63691ad6f0d998fc059.png",
     "static/media/HeroBackground.jpg": "/Shane-Fox-Portfolio/static/media/HeroBackground.d8968ed33112aac856c6.jpg",
     "static/media/Nuero API JS Map.png": "/Shane-Fox-Portfolio/static/media/Nuero API JS Map.6b5db97e254de72aade0.png",
-    "static/media/React-a-mole screenshot.png": "/Shane-Fox-Portfolio/static/media/React-a-mole screenshot.08190666ecbe7ae3a644.png",
+    "static/media/Nuero react-a-mole.png": "/Shane-Fox-Portfolio/static/media/Nuero react-a-mole.2e590abea9693fc8e675.png",
     "static/media/Nuromophic Timer App.png": "/Shane-Fox-Portfolio/static/media/Nuromophic Timer App.937240c17ea443f2c2a9.png",
     "static/media/To Do Nuero Image.png": "/Shane-Fox-Portfolio/static/media/To Do Nuero Image.a2498c58cd59eff749e9.png",
     "static/media/Nuero Counter Image.png": "/Shane-Fox-Portfolio/static/media/Nuero Counter Image.9c561a372df4bbaef8f7.png",
     "index.html": "/Shane-Fox-Portfolio/index.html",
     "main.10927368.css.map": "/Shane-Fox-Portfolio/static/css/main.10927368.css.map",
-    "main.f551ab0c.js.map": "/Shane-Fox-Portfolio/static/js/main.f551ab0c.js.map"
+    "main.19d936da.js.map": "/Shane-Fox-Portfolio/static/js/main.19d936da.js.map"
   },
   "entrypoints": [
     "static/css/main.10927368.css",
-    "static/js/main.f551ab0c.js"
+    "static/js/main.19d936da.js"
   ]
 }
