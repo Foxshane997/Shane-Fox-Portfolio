@@ -48,8 +48,8 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: 'React/Redux Art Gallery',
-      description: 'A art gallery using React & Redux.',
+      title: 'React Art Gallery',
+      description: 'A art gallery using React API fetch.',
       image: GalleryImage,
       link: 'https://foxshane997.github.io/RR-Art-Gallery/' 
     },
