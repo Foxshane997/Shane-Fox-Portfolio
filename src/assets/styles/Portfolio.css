@@ -6,10 +6,10 @@
   gap: 25px;
   background: #e0e5ec;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   box-shadow: inset 8px 8px 15px #a3b1c6, inset -8px -8px 15px #ffffff;
-  overflow-y: auto;
 }
+
 
 .portfolio::after {
   content: '';
@@ -17,10 +17,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 10px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 0 0 12px 12px;
+  height: 0;
+  box-shadow: none;
 }
+
 
 .card {
   background-color: #e0e5ec;
