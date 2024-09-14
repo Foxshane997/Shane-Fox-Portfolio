@@ -4,11 +4,12 @@ nav {
   padding: 10px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Center items horizontally */
+  position: relative;
 }
 
 .menu-toggle {
-  display: none; 
+  display: none;
   background: #e0e5ec;
   border: none;
   cursor: pointer;
@@ -16,7 +17,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
 }
 
 .nav-icon {
@@ -28,7 +28,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
+  margin-right: auto; /* Pushes the menu to the center */
 }
 
 ul {
@@ -37,12 +37,12 @@ ul {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex: 2;
+  justify-content: center; /* Center items horizontally */
+  gap: 10px; /* Add spacing between menu items */
+  flex: 1; /* Allows ul to take available space */
 }
 
 ul li {
-  flex: 1;
   text-align: center;
 }
 
@@ -62,13 +62,13 @@ ul li a:hover {
 
 @media (max-width: 768px) {
   nav {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
   
   .menu-toggle {
-    display: block; 
-    margin-bottom: 10px; 
+    display: block;
+    margin-bottom: 10px;
   }
   
   .nav-icon {
@@ -76,30 +76,31 @@ ul li a:hover {
   }
   
   ul {
-    display: none; 
+    display: none;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     width: 100%;
     padding: 0;
+    gap: 0; /* Remove gap on mobile */
   }
 
   ul.active {
-    display: flex; 
+    display: flex;
   }
-
+  
   ul li {
     text-align: center;
-    width: 100%; 
+    width: 100%;
   }
-
+  
   ul li a {
     padding: 15px;
     background: #f9f9f9;
     border-bottom: 1px solid #ddd;
-    width: 100%; 
-    text-align: center; 
+    width: 100%;
+    text-align: center;
   }
-
+  
   ul li a:hover {
     background: #d3d9e0;
   }
