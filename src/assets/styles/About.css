@@ -4,8 +4,8 @@ body {
 
 .about-container {
   background-color: #e0e5ec;
-  width: 50%;
-  height: 900px;
+  width: 90%; /* Adjusted for better mobile responsiveness */
+  max-width: 800px; /* Ensures it doesn't become too wide on larger mobile screens */
   margin: 0 auto;
   margin-top: 25px;
   padding: 20px;
@@ -18,12 +18,13 @@ body {
 h1 {
   margin-bottom: 20px;
   color: #333;
+  font-size: 2rem; /* Larger font size for better readability */
 }
 
 p {
-  font-size: 17px;
+  font-size: 1.125rem; /* Slightly larger text for better readability */
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-left: 5px;
   padding-right: 5px;
   color: #333;
@@ -35,27 +36,26 @@ p {
 }
 
 .image-container img {
-  width: 80%;
-  max-width: 400px;
+  width: 100%; /* Makes image responsive */
+  max-width: 100%; /* Ensures image doesn't exceed container width */
   height: auto;
   border-radius: 12px;
   box-shadow: 4px 4px 10px #a3b1c6, -4px -4px 10px #ffffff;
 }
 
 @media (max-width: 768px) {
-  .container {
-    width: 90%;
+  .about-container {
+    width: 95%; /* Slightly wider for mobile screens */
     padding: 15px;
   }
 
   h1 {
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 1.5rem; /* Adjusted font size for mobile */
   }
 
   p {
-    font-size: 1rem;
-    color: #333;
+    font-size: 1rem; /* Adjusted font size for mobile */
+    line-height: 1.5;
   }
 
   .image-container img {
