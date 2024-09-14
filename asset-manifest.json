@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shane-Fox-Portfolio/static/css/main.9068cc36.css",
-    "main.js": "/Shane-Fox-Portfolio/static/js/main.d7535912.js",
+    "main.css": "/Shane-Fox-Portfolio/static/css/main.31e6d038.css",
+    "main.js": "/Shane-Fox-Portfolio/static/js/main.55133a5d.js",
     "static/media/Star Wars Quiz Screen Shot.png": "/Shane-Fox-Portfolio/static/media/Star Wars Quiz Screen Shot.8cdd0a129dcec771e8e1.png",
     "static/media/Ahsoka Disney Land Pic.jpg": "/Shane-Fox-Portfolio/static/media/Ahsoka Disney Land Pic.2d9c6a95f22e48c83b0b.jpg",
     "static/media/MERN Recipe Application.png": "/Shane-Fox-Portfolio/static/media/MERN Recipe Application.a63691ad6f0d998fc059.png",
@@ -13,11 +13,11 @@
     "static/media/To Do Nuero Image.png": "/Shane-Fox-Portfolio/static/media/To Do Nuero Image.a2498c58cd59eff749e9.png",
     "static/media/Nuero Counter Image.png": "/Shane-Fox-Portfolio/static/media/Nuero Counter Image.9c561a372df4bbaef8f7.png",
     "index.html": "/Shane-Fox-Portfolio/index.html",
-    "main.9068cc36.css.map": "/Shane-Fox-Portfolio/static/css/main.9068cc36.css.map",
-    "main.d7535912.js.map": "/Shane-Fox-Portfolio/static/js/main.d7535912.js.map"
+    "main.31e6d038.css.map": "/Shane-Fox-Portfolio/static/css/main.31e6d038.css.map",
+    "main.55133a5d.js.map": "/Shane-Fox-Portfolio/static/js/main.55133a5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9068cc36.css",
-    "static/js/main.d7535912.js"
+    "static/css/main.31e6d038.css",
+    "static/js/main.55133a5d.js"
   ]
 }
