@@ -9,7 +9,7 @@ Welcome to my portfolio app! This is a simple web application designed to showca
 - **About**: Learn more about me and my background.
 - **Contact**: Get in touch with me through a contact page.
 
-## Live Demo
+## Live Site -
 
 You can view the live version of the portfolio app [here](https://foxshane997.github.io/Shane-Fox-Portfolio/).
 
