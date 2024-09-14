@@ -4,11 +4,13 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  min-height: 100vh; 
+  background: #e0e5ec; 
 }
 
 nav {
-  background-color: #333;
+  background: #e0e5ec; 
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
   overflow: hidden;
 }
 
@@ -16,40 +18,46 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav ul li {
-  float: left;
+  flex: 1;
+  text-align: center;
 }
 
 nav ul li a {
   display: block;
-  color: white;
-  text-align: center;
+  color: #333;
   padding: 14px 20px;
   text-decoration: none;
+  background: #e0e5ec; 
+  box-shadow: inset 4px 4px 8px #a3b1c6, inset -4px -4px 8px #ffffff; 
 }
 
 nav ul li a:hover {
-  background-color: #575757;
+  background: #d3d9e0; 
+  color: #333;
+  box-shadow: inset 2px 2px 5px #a3b1c6, inset -2px -2px 5px #ffffff;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
   padding: 1em;
   width: 100%;
+  height: 50px;
   box-sizing: border-box;
-  position: sticky;
+  background: #e0e5ec;
   bottom: 0;
-  background-color: #333; /* Add a background color to match the design */
-  z-index: 10; /* Ensure the footer stays above other content */
+  z-index: 10;
 }
 
 footer a {
   margin: 0 10px;
-  color: whitesmoke;
+  color: #333;
   text-decoration: none;
   font-weight: 500;
 }
@@ -60,9 +68,9 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  nav ul li {
-    float: none;
-    width: 100%;
+  nav ul {
+    flex-direction: column;
+    align-items: stretch;
   }
   
   nav ul li a {

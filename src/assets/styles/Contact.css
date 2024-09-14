@@ -1,23 +1,22 @@
 body {
-  background-color: #333;
+  background-color: #e0e5ec;
 }
 
-.container {
-  background-color: whitesmoke;
+.contact-container {
+  background-color: #e0e5ec;
   width: 50%;
   margin: 0 auto;
   margin-top: 25px;
-  padding: 0px;
-  border: 1px solid #000;
-  box-shadow: 0 0 10px white;
-  border-radius: 8px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
   text-align: center;
 }
 
 h1 {
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #000;
+  color: #333;
 }
 
 .contact-info {
@@ -26,23 +25,24 @@ h1 {
 
 .contact-info p {
   margin: 10px 0;
-  color: #000;
+  color: #333;
   font-size: large;
 }
 
 .contact-info a {
-  color: black;
+  color: #333;
   text-decoration: none;
   font-size: large;
 }
 
 .contact-info a:hover {
   text-decoration: underline;
-  color: black;
+  color: lightcoral;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  .container {
+  .contact-container {
     width: 90%;
     padding: 10px;
   }

@@ -4,7 +4,7 @@ import DisneyImage from "../assets/images/Ahsoka Disney Land Pic.jpg";
 
 function About() {
   return (
-    <div className="container">
+    <div className="about-container">
       <h1>About Me</h1>
       <p>
         My name is Shane Fox. I am an aspiring Web Developer from Las Vegas,

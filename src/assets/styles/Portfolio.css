@@ -2,57 +2,78 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px;
-  gap: 20px;
+  padding: 35px;
+  gap: 25px;
+  background: #e0e5ec;
+  position: relative;
+  height: 100vh;
+  box-shadow: inset 8px 8px 15px #a3b1c6, inset -8px -8px 15px #ffffff;
+  overflow-y: auto;
+}
+
+.portfolio::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 12px 12px;
 }
 
 .card {
-  background-color: #333;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 0 9px white;
+  background-color: #e0e5ec;
+  border: 1px solid #d0d9e0;
+  border-radius: 12px;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
   overflow: hidden;
   width: 300px;
+  height: 350px;
   transition: transform 0.3s ease;
   text-decoration: none;
-  color: whitesmoke;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
   transform: translateY(-10px);
+  box-shadow: 4px 4px 10px #a3b1c6, -4px -4px 10px #ffffff;
 }
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: 180px;
   object-fit: cover;
-  margin-top: -4px; /* Adjusted to remove space above the image */
 }
 
 .card h3 {
   margin: 16px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .card p {
   margin: 0 16px 16px;
-  color: whitesmoke;
+  color: #333;
 }
 
 @media (max-width: 768px) {
   .card {
     width: 100%;
+    height: auto; 
   }
 
   .card img {
-    height: 150px;
+    height: 180px;
   }
 
   .card h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .card p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
