@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-height: 100vh; 
   background: #e0e5ec; 
+  font-size: 16px; 
 }
 
 footer {
@@ -27,11 +28,20 @@ footer a {
   color: #333;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1rem; 
 }
 
 footer a:hover {
   color: lightcoral;
-  font-size: x-large;
+  font-size: 1.2rem; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5rem;
+}
+
+p, span, div {
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -42,6 +52,7 @@ footer a:hover {
   
   nav ul li a {
     padding: 10px;
+    font-size: 1rem; 
   }
 
   footer {
@@ -51,5 +62,6 @@ footer a:hover {
   
   footer a {
     margin: 5px 0;
+    font-size: 1rem; 
   }
 }
