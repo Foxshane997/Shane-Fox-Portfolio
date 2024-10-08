@@ -11,9 +11,9 @@ function About() {
         Nevada.
       </p>
       <p>
-        I am currently pursuing a Software Development Certificate at the
-        University of Nevada, Las Vegas, expected in October 2024. I have
-        successfully completed coursework in HTML & Web Accessibility, CSS & CSS
+        I have recently graduated with a Software Development Certificate from the
+        University of Nevada, Las Vegas, in October 2024. I have successfully 
+        completed coursework in HTML & Web Accessibility, CSS & CSS
         Frameworks, UX & UI Design, JavaScript & Front-End Development, Back-End
         Development & APIs, React & Redux, SQL & Database Management, and Cyber
         Security. Throughout my studies, I have built a strong foundation in
@@ -24,7 +24,11 @@ function About() {
         ever-evolving field of web development.
       </p>
       <div className="image-container">
-        <img src={DisneyImage} alt="Ahsoka Disney Pic" />
+        <img 
+          src={DisneyImage} 
+          alt="Ahsoka Disney Pic" 
+          loading="lazy"
+        />
       </div>
       <p>
         I am currently living in Las Vegas, Nevada with my family and pet Roku!

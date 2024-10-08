@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../assets/styles/Portfolio.css';
 import StarWarsQuizImage from '../assets/images/Star Wars Quiz Screen Shot.png';
 import ToDoImage from '../assets/images/To Do Nuero Image.png';
@@ -8,9 +8,10 @@ import MoleImage from '../assets/images/Nuero react-a-mole.png';
 import GalleryImage from '../assets/images/Nuero Art Gallery.png';
 import MernApp from '../assets/images/MERN Recipe Application.png';
 import TimerImage from '../assets/images/Nuromophic Timer App.png';
-import PortfolioImage from '../assets/images/Portfolio Image.png';
+import CliquePlay from '../assets/images/CliquePlay Portfolio Image.png';
 
 const Portfolio = () => {
+  const [isLoading, setIsLoading] = useState(true);
   const projects = [
     {
       id: 1,
@@ -78,19 +79,37 @@ const Portfolio = () => {
     },
     {
       id: 9,
-      title: 'My Personal Portfolio',
-      description: 'My portfolio made with React.',
-      image: PortfolioImage,
-      link: 'https://foxshane997.github.io/Shane-Fox-Portfolio/',
+      title: 'CliquePlay',
+      description: 'Music Media player using Express & React With Spotify API.',
+      image: CliquePlay,
+      link: 'https://milestone-3-front-end-production.up.railway.app/',
       mobileFriendly: 'Yes'
     },
   ];
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="portfolio">
-      {projects.map(project => (
-        <a href={project.link} className="card" key={project.id} target="_blank" rel="noopener noreferrer">
-          <img src={project.image} alt={project.title} />
+      {projects.map((project) => (
+        <a
+          href={project.link}
+          className="card"
+          key={project.id}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {isLoading ? (
+            <div className="placeholder" />
+          ) : (
+            <img src={project.image} alt={project.title} />
+          )}
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <p className="mobile-friendly">Mobile Friendly: {project.mobileFriendly}</p>
