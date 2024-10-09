@@ -13,7 +13,6 @@ body {
   text-align: left;
 }
 
-
 h1 {
   margin-bottom: 20px;
   color: #333;
@@ -46,11 +45,6 @@ p {
   .about-container {
     width: 95%;
     padding: 15px;
-  }
-
-  .image-container img {
-    margin-top: 10px;
-    border-radius: 10px;
   }
 
   h1 {
