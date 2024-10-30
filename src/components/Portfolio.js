@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/styles/Portfolio.css';
 import StarWarsQuizImage from '../assets/images/Star Wars Quiz Screen Shot.png';
-import ToDoImage from '../assets/images/To Do Nuero Image.png';
 import MapImage from '../assets/images/Nuero API JS Map.png';
-import CounterImage from '../assets/images/Nuero Counter Image.png';
 import MoleImage from '../assets/images/Nuero react-a-mole.png';
 import GalleryImage from '../assets/images/Nuero Art Gallery.png';
 import MernApp from '../assets/images/MERN Recipe Application.png';
-import TimerImage from '../assets/images/Nuromophic Timer App.png';
 import CliquePlay from '../assets/images/CliquePlay Portfolio Image.png';
+import UtilityImage from "../assets/images/Utility-Image.png"
+import PortfolioImage from "../assets/images/Portfolio Image.png"
 
 const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,22 +22,6 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'To-Do Application',
-      description: 'A To-Do Application built using React.',
-      image: ToDoImage,
-      link: 'https://foxshane997.github.io/SF-To-Do-List.github.io/',
-      mobileFriendly: 'Yes'
-    },
-    {
-      id: 3,
-      title: 'Counter app in React',
-      description: 'A counter app made with React.',
-      image: CounterImage,
-      link: 'https://foxshane997.github.io/Counter/',
-      mobileFriendly: 'Yes'
-    },
-    {
-      id: 4,
       title: 'JavaScript API Map',
       description: 'Using API fetch to render a Map.',
       image: MapImage,
@@ -46,7 +29,7 @@ const Portfolio = () => {
       mobileFriendly: 'Yes'
     },
     {
-      id: 5,
+      id: 3,
       title: 'React-A-Mole',
       description: 'React Wack-A-Mole.',
       image: MoleImage,
@@ -54,7 +37,7 @@ const Portfolio = () => {
       mobileFriendly: 'Yes'
     },
     {
-      id: 6,
+      id: 4,
       title: 'React Art Gallery',
       description: 'A art gallery using React API fetch.',
       image: GalleryImage,
@@ -62,7 +45,7 @@ const Portfolio = () => {
       mobileFriendly: 'Yes'
     },
     {
-      id: 7,
+      id: 5,
       title: 'MERN Fullstack Recipe',
       description: 'Fullstack recipe application using MealDealAPI.',
       image: MernApp,
@@ -70,19 +53,27 @@ const Portfolio = () => {
       mobileFriendly: 'Yes'
     },
     {
-      id: 8,
-      title: 'Timer React Application',
-      description: 'Timer App made with React.',
-      image: TimerImage,
-      link: 'https://foxshane997.github.io/Timer-Application/',
-      mobileFriendly: 'Yes'
-    },
-    {
-      id: 9,
+      id: 6,
       title: 'CliquePlay',
       description: 'Music Media player using Express & React With Spotify API.',
       image: CliquePlay,
       link: 'https://milestone-3-front-end-production.up.railway.app/',
+      mobileFriendly: 'Yes'
+    },
+    {
+      id: 7,
+      title: 'Utility',
+      description: 'Utility app made using React.js.',
+      image: UtilityImage,
+      link: 'https://foxshane997.github.io/Utility/',
+      mobileFriendly: 'Yes'
+    },
+    {
+      id: 8,
+      title: 'Portfolio',
+      description: 'My portfolio using React.js.',
+      image: PortfolioImage,
+      link: 'https://foxshane997.github.io/Shane-Fox-Portfolio/#/',
       mobileFriendly: 'Yes'
     },
   ];
