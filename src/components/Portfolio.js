@@ -7,7 +7,7 @@ import GalleryImage from '../assets/images/Nuero Art Gallery.png';
 import MernApp from '../assets/images/MERN Recipe Application.png';
 import CliquePlay from '../assets/images/CliquePlay Portfolio Image.png';
 import UtilityImage from "../assets/images/Utility-Image.png"
-import PortfolioImage from "../assets/images/Portfolio Image.png"
+import PortfolioImage from "../assets/images/PortfolioImage.png"
 
 const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
