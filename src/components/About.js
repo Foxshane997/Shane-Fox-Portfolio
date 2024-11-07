@@ -15,7 +15,7 @@ function About() {
         University of Nevada, Las Vegas, in October 2024. I have successfully 
         completed coursework in HTML & Web Accessibility, CSS & CSS
         Frameworks, UX & UI Design, JavaScript & Front-End Development, Back-End
-        Development & APIs, React & Redux, SQL & Database Management, and Cyber
+        Development & APIs, React & Redux, SQL & Database Management, and Web Application
         Security. Throughout my studies, I have built a strong foundation in
         both front-end and back-end technologies, enabling me to create dynamic,
         responsive, and user-friendly web applications. I am passionate about
